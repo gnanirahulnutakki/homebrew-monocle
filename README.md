@@ -26,9 +26,17 @@ and click Open Anyway. You only do this once.
 
 ## Update and remove
 
+Homebrew looks for new versions of this tap only once a day on its own, so refresh it first:
+
+```bash
+brew update
+```
+
 ```bash
 brew upgrade --cask monocle
 ```
+
+Each new test build needs the one-time Open Anyway approval again.
 
 ```bash
 brew uninstall --cask monocle
