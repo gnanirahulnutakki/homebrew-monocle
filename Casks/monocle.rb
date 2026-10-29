@@ -1,13 +1,13 @@
 cask "monocle" do
-  version "1.10.3-rc32"
+  version "1.10.3-rc33"
 
   on_arm do
-    sha256 "cb998c34edd023471b9300bcafde6c2fc98c33ddbcfa0598b70ae750d7759e98"
+    sha256 "509dddad9723c357502a1aaec6c84c9cd1b80d8e2708a84bf1773168cc640eac"
 
     url "https://github.com/gnanirahulnutakki/homebrew-monocle/releases/download/v#{version}/Monocle-#{version}-apple-silicon.dmg"
   end
   on_intel do
-    sha256 "50bc5a6b1b7cf99179397a4ce8e0ae685a1ef92fb2a6ac6b8b8870d792144b44"
+    sha256 "82090bc1ce18ab0019cfb2ea57eeaf6dcf7efb78dd9dec20123830c865c6d477"
 
     url "https://github.com/gnanirahulnutakki/homebrew-monocle/releases/download/v#{version}/Monocle-#{version}-intel.dmg"
   end
