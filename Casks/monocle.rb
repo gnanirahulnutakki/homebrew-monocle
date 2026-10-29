@@ -16,7 +16,7 @@ cask "monocle" do
   desc "Kubernetes desktop app built on Freelens"
   homepage "https://github.com/gnanirahulnutakki/homebrew-monocle"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Monocle.app"
 
@@ -40,5 +40,8 @@ cask "monocle" do
     "~/Library/Preferences/app.monocle.Monocle.plist",
   ]
 
-  caveats "Test build: unsigned and not notarized. On first launch, approve Monocle in System Settings > Privacy & Security > Open Anyway."
+  caveats <<~EOS
+    Test build: unsigned and not notarized. On first launch, approve Monocle in
+    System Settings > Privacy & Security > Open Anyway.
+  EOS
 end
